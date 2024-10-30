@@ -1,2 +1,88 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Présentation TheGreatReview</title>
+</head>
+<body>
+    <header>
+        <h1>TheGreatReview</h1>
+        <p>Youtuber storytelling</p>
+    </header>
+    <main>
+        <section> 
+            <h2>Présentation générale</h2>
+            <p id="general">
+                TheGreatReview, de son vrai nom, Augustin Helliot est <br>
+                un youtuber storytelling de 29 ans, habitant à Paris. <br>
+                Il publie des vidéos principalement sur le gaming ou <br>
+                des phénomènes d'internet.
+            </p>
+            <img src="images/tgr_1.jfif" class="img_1">
+        </section>
+        <section>
+          <h2></h2>
+          <p>Aime jouer aux jeux-vidéos (souvent en stream) <br>
+          et faire des vidéos sur les sujets qu'il aime.</p>
+        </section>
+        <section>
+            <h2>Parcours Professionnel</h2>
+            <p id="parcours">
+                <ol>
+                    <li>Master en Droit</li>
+                    <li>Stagiaire Webedia</li>
+                    <li>Rédacteur/chroniqueur Indépendant Webedia</li>
+                    <li>Créateur de contenus</li>
+                </ol>
+            </p>
+        </section>
+        <section>
+            <table border="1">
+                <thead>
+                  <tr>
+                    <th>Compétences</th>
+                    <th>Langues parlées</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Montage Vidéo</th>
+                    <td>Français</td>
+                  </tr>
+                  <tr>
+                    <th>Rédaction</th>
+                    <td>Anglais</td>
+                  </tr>
+                  <tr>
+                    <th>Photoshop</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Premiere Pro</th>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#general">
+            Présentation générale
+        </a>
+        <br>
+        <a href="#travail">
+            Parcours professionnel
+        </a>
+        <br>
+        <a href="#competences">
+            Compétences
+        </a>
+    </footer>
+
+</body>
+</html>
